@@ -1,0 +1,29 @@
+Limites em sistemas de particionamento e sistemas de arquivos
+
+Esquema de particionamento
+Partição MSDOS - 2Tb
+Partição GPT - 1Zb
+
+Sistemas de arquivos
+ext2
+Tamanho máximo da partição - 2Tb - 16Tb (número de blocos limitados a 65 536)
+
+Tamanho máximo de Arquivo - 16Gb
+
+ext3
+Tamanho máximo da partição 2Tb - 32Tb - (número de blocos limitados a 65 536)
+
+Tamanho máximo de Arquivo - 16Gb - 2Tb
+
+ext4
+Tamanho máximo da partição - 1Eb (número de blocos limitados a 65 536)
+
+Tamanho máximo de Arquivo - 16Tb (para blocos de 4k)
+
+Detalhes sobre o cálculo de blocos e como atingir valores máximos, podem ser
+
+encontrados em:
+
+https://pt.wikipedia.org/wiki/Ext4
+
+https://pt.wikipedia.org/wiki/Ext3

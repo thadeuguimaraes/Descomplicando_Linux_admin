@@ -1,0 +1,4 @@
+#apt install tree coreutils bsdutils bsdmainutils net-tools man-db
+
+#Para instalar o comando 'man', caso o seu sistema não possua o
+comando instalado: apt install man-db 

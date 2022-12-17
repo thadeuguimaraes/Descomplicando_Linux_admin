@@ -1,0 +1,15 @@
+Complemento sobre a explicação SGID / SUID - S maiúsculo
+------------------------------------------------------
+
+Caso você encontre em algum local a permissão SUID ou SGID com  'S' maiúsculo:
+
+--wSr-xr-x 1 gleydson gleydson 28 jan  4 13:39 teste
+
+-rwx--Sr-x 1 gleydson gleydson 28 jan  4 13:39 teste
+
+isto significa que naquela posição do 'S' NÃO existe permissão de execução (4255 ou 2705 octal 
+por exemplo).
+Basicamente é uma interpretação visual e rápida de entender que há uma permissão:
+
+Octal 4255:
+--wSr-xr-x 1 gleydson gleydson 2
